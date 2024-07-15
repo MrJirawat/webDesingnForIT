@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การจัดการโครงร่างของเพจด้วย tag ในกลุ่ม semantic</title>
+</head>
+<body>
+    <div style="width:470px; margin: auto;">
+        <header>
+            <img src="img/bird.png" style="width:36px; float:left">
+            <h1>&nbsp;JirawatThai</h1>
+        </header>
+    
+        <nav style="background:powderblue;">
+            <a href="#">หน้าแรก</a> |
+            <a href="#">สินค้า</a> |
+            <a href="#">การสั่งซื้อ</a> |
+            <a href="#">ติดต่อเรา</a>
+        </nav>
+    
+        <div style="display:flex">
+        <article style="width:340px;">
+            <br>
+            <section>
+                <img src="img/html5.png" width="60" style="float:left;">
+                HTML5 will be the new standard for HTML.
+                The previous version of HTML, HTML 4.01, came in 1999...
+                <a href="#">อ่านต่อ &raquo;</a>
+            </section>
+            <br>
+            <section>
+                <img src="img/css3.png" width="60" style="float:left;">
+                Cascading Style Sheets (CSS) is a style sheet language 
+                used for describing the presentation semantics...
+                <a href="#">อ่านต่อ &raquo;</a>
+            </section>
+        </article>
+    
+        <aside style="width:130px; background:lightyellow;">
+            สินค้ายอดนิยม:
+            <ul>
+                <li><a href="#"">HTML5</a></li>
+                <li><a href="#"">CSS3</a></li>
+                <li><a href="#"">Bootstrap</a></li>
+                <li><a href="#"">JavaScript</a></li>
+            </ul>
+        </aside>
+        </div>
+        
+        <footer style="text-align: center">
+            <br>
+            <hr>
+            &copy; 2024 JirawatThai.com 
+            All rights reserved
+        </footer>
+    </div>
+</body>
+</html>
+<!----<br><br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JirawatThai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 20px;
+        }
+        .container {
+            width: 470px;
+            margin: auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(64, 43, 255, 0.9);
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        header img {
+            margin-right: 10px;
+        }
+        nav {
+            background-color: powderblue;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: flex;
+        }
+        article {
+            width: 340px;
+            margin-right: 10px;
+        }
+        article section {
+            margin-bottom: 20px;
+        }
+        article img {
+            margin-right: 10px;
+        }
+        aside {
+            width: 130px;
+            background-color: lightyellow;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        aside ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        aside ul li {
+            margin-bottom: 10px;
+        }
+        aside ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        aside ul li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer hr {
+            border: 0;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/bird.png" style="width:36px;">
+            <h1>&nbsp;JirawatThai</h1>
+        </header>
+    
+        <nav>
+            <a href="#">หน้าแรก</a> |
+            <a href="#">สินค้า</a> |
+            <a href="#">การสั่งซื้อ</a> |
+            <a href="#">ติดต่อเรา</a>
+        </nav>
+    
+        <div class="content">
+            <article>
+                <section>
+                    <img src="img/html5.png" width="60" style="float:left;">
+                    HTML5 will be the new standard for HTML.
+                    The previous version of HTML, HTML 4.01, came in 1999...
+                    <a href="#">อ่านต่อ &raquo;</a>
+                </section>
+                <section>
+                    <img src="img/css3.png" width="60" style="float:left;">
+                    Cascading Style Sheets (CSS) is a style sheet language 
+                    used for describing the presentation semantics...
+                    <a href="#">อ่านต่อ &raquo;</a>
+                </section>
+            </article>
+    
+            <aside>
+                สินค้ายอดนิยม:
+                <ul>
+                    <li><a href="#">HTML5</a></li>
+                    <li><a href="#">CSS3</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            </aside>
+        </div>
+        
+        <footer>
+            <hr>
+            &copy; 2024 JirawatThai.com 
+            All rights reserved
+        </footer>
+    </div>
+</body>
+</html> >
+
+
+
+
+
